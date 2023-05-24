@@ -37,3 +37,9 @@ class Square:
             return self.square_side * 4
         else:
             return 0
+
+
+s = Square(5)
+print(s.area())
+print(s.perimeter())
+print(s.is_valid())
